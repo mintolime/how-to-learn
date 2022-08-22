@@ -93,12 +93,15 @@
 /* DESCRIRTION */
 
 .description {
-  max-width: 80%;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
   padding: 100px 0;
+  margin: 0;
 }
 
 .two-columns {
+  width: 80%;
+  min-width: 784px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -188,7 +191,7 @@
   padding-top: 60px;
 }
 
-.table__hearding {
+.table__heading {
   line-height: 1.15em;
   font-size: 24px;
   font-weight: 600;
@@ -266,7 +269,7 @@
 
 }
 
-.section_theme_dark {
+.kaufman_theme_dark {
   background-color: #1f1f1f;
   background-size: cover;
   color: #f2f2f2;
@@ -296,11 +299,9 @@
 /* FOOTER */
 
 .footer {
-
   padding: 60px 0 40px 0;
   min-height: 350px;
   box-sizing: border-box;
-
 }
 
 .footer_theme_dark {
@@ -321,9 +322,10 @@
 }
 
 
-.footer__column_content-copyright {
+.footer__column_content_copyright {
   position: relative;
   flex-basis: 711px;
+  min-height: 200px;
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -338,7 +340,7 @@
 
 }
 
-.footer__column_content-info {
+.footer__column_content_info {
   margin-bottom: 16px;
 }
 
@@ -348,7 +350,7 @@
   font-size: 18px;
   font-weight: normal;
   margin: 18px 0;
-  box-sizing: border-box;
+
 }
 
 
