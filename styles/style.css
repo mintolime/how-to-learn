@@ -68,27 +68,21 @@
   width: 765px;
   height: 608px;
   z-index: 1;
-}
-
-.header__main-illustration_place {
   object-fit: cover;
   position: absolute;
   bottom: 0;
   right: 0;
 }
 
-.square-pic {
+
+.header_square-pic {
   width: 568px;
   height: 568px;
   background-color: #2f80ed;
-}
-
-.square-pic_place {
   position: absolute;
   top: 64px;
   right: 0;
 }
-
 
 /* DESCRIRTION */
 
@@ -111,6 +105,8 @@
 }
 
 .two-columns__main-text {
+  display: flex;
+  min-height: 332px;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
@@ -128,6 +124,7 @@
 }
 
 .two-columns__paragraph {
+
   margin: 0;
   line-height: 34px;
   font-size: 24px;
@@ -207,6 +204,10 @@
   margin: 0;
 }
 
+.table__text:last-of-type {
+  padding: 0;
+}
+
 
 
 
@@ -276,13 +277,13 @@
 }
 
 .kaufman__triangle {
+  background-size: cover;
   position: absolute;
   top: 0;
   right: -210px;
   background-image: url(../images/kaufman-triangle.svg);
   width: 877px;
   height: 877px;
-  overflow: hidden;
   z-index: 2;
   /* убрала треугол. на первый слой */
 }
@@ -299,6 +300,7 @@
 /* FOOTER */
 
 .footer {
+  display: flex;
   padding: 60px 0 40px 0;
   min-height: 350px;
   box-sizing: border-box;
@@ -316,6 +318,7 @@
 
 
 .footer__columns {
+  width: 90%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -325,7 +328,6 @@
 .footer__column_content_copyright {
   position: relative;
   flex-basis: 711px;
-  min-height: 200px;
   align-items: flex-start;
   display: flex;
   flex-direction: column;
