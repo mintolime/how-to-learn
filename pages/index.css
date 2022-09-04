@@ -1,4 +1,4 @@
-@import url(../verdor/page.css);
+@import url(../blocks/page/page.css);
 @import url(../blocks/rotation/rotation.css);
 /*HEADER*/
 @import url(../blocks/header/header.css);
@@ -14,7 +14,7 @@
 
 /* DESCRIRTION */
 @import url(../blocks/description/description.css);
-@import url(../blocks/description/__theme-grey/description__theme-grey.css);
+@import url(../blocks/description/_theme-grey/description_theme-grey.css);
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
@@ -67,7 +67,6 @@
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/kaufman/_theme_dark/kaufman_theme_dark.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
-
 
 /* RESOURSES */
 @import url(../blocks/resources/resources.css);

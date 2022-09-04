@@ -8,4 +8,5 @@
   height: 877px;
   z-index: 2;
   /* убрала треугол. на первый слой */
+  animation: rotation 20s infinite normal;
 }
