@@ -1,0 +1,6 @@
+.table__cell_theme_dark {
+  padding-top: 80px;
+  max-width: 200px;
+  z-index: 3;
+  /* подняла элементы table на главный слой */
+}

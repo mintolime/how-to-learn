@@ -1,0 +1,11 @@
+.resources__link {
+  padding-top: 80px;
+  display: inline-block;
+  background-color: #ffffff;
+}
+
+.resources__link:hover {
+  /* border-bottom: #d3d3d3 2px solid; нижнее подчеркивание ссылок */
+  transition: background-color 0.5s;
+  opacity: 0.6;
+}

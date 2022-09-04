@@ -1,0 +1,9 @@
+.video__frames {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+}

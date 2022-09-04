@@ -1,6 +1,89 @@
+@import url(../verdor/page.css);
+@import url(../blocks/rotation/rotation.css);
+/*HEADER*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/logo/logo_place_header.css);
+@import url(../blocks/logo/logo_place_header.css);
+@import url(../blocks/logo/_place_footer/logo_place_footer.css);
+/*для блока footer */
 @import url(../blocks/header/__link/header__link.css);
-
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__main-illustration/header__main-illustration.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
+
+/* DESCRIRTION */
+@import url(../blocks/description/description.css.css);
+@import url(../blocks/description/__theme-grey/description__theme-grey.css);
+@import url(../blocks/two-columns/two-columns.css.css);
+@import url(../blocks/two-columns/__brief/two-columns__brief.css.css);
+@import url(../blocks/two-columns/__main-text/two-columns__main-text.css.css);
+@import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css.css);
+@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css.css);
+
+/* TECHNIQUES */
+@import url(../blocks/techniques/techniques.css.css);
+@import url(../blocks/cards/cards.css.css);
+@import url(../blocks/cards/__item/cards__item.css.css);
+@import url(../blocks/cards/__title/cards__title.css.css);
+@import url(../blocks/cards/__image/cards__image.css.css);
+@import url(../blocks/cards/__decription/cards__description.css.css);
+
+/* VIDEO */
+@import url(../blocks/video/video.css.css);
+@import url(../blocks/video/__iframes/video__iframes.css.css);
+@import url(../blocks/video/__iframe/);
+
+/* DIGITS  */
+@import url(../blocks/digits/digits.css.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-subtitle/section-subtitle.css.css);
+@import url(../blocks/table/table.css.css);
+@import url(../blocks/table/__cell/table__cell.css.css);
+@import url(../blocks/table/__cell/__cell_theme_dark/table__cell_theme_dark.css);
+/*для блока kaufman */
+@import url(../blocks/table/__heading/table__heading.css.css);
+@import url(../blocks/table/__text/table__text.css.css);
+
+/* FEYNMAN */
+@import url(../blocks/feyman/feyman.css.css);
+@import url(../blocks/feyman/__title/feyman__title.css.css);
+@import url(../blocks/feyman/__subtitle/feyman__subtitle.css.css);
+@import url(../blocks/feyman/__link/feyman__link.css.css);
+
+/* KHAN */
+@import url(../blocks/khan/khan.css.css);
+@import url(../blocks/khan/__book-container/);
+@import url(../blocks/khan/__author/khan__author.css.css);
+@import url(../blocks/khan/__title/khan__title.css.css);
+@import url(../blocks/khan/__quote/khan__gyote.css.css);
+@import url(../blocks/khan/__quote-author/khan__gyote-author.css.css);
+@import url(../blocks/khan/__quote-author-subline/khan__guote-author-subline.css.css);
+@import url(../blocks/khan/__book-container/khan__book-container.css.css);
+@import url(../blocks/khan/__book-pic/khan__book-pic.css.css);
+@import url(../blocks/khan/__buy-link/khan__buy-link.css.css);
+
+/* -------KAUFMAN----- */
+@import url(../blocks/kaufman/kaufman.css.css);
+@import url(../blocks/kaufman/_theme_dark/kaufman_theme_dark.css);
+@import url(../blocks/kaufman/__triangle/kaufman__triangle.css.css);
+
+
+/* RESOURSES */
+@import url(../blocks/resources/resources.css.css);
+@import url(../blocks/resources/__logo/recources__logo.css);
+@import url(../blocks/resources/__logo/__logo-zone/resources__logo-zone.css.css);
+@import url(../blocks/resources/__link/resources__link.css.css);
+
+/* FOOTER */
+@import url(../blocks/footer/footer.css.css);
+@import url(../blocks/footer/__theme_dark/footer_theme_dark.css);
+@import url(../blocks/footer/__author/footer__author.css.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css.css);
+@import url(../blocks/footer/__columns/footer__columns.css.css);
+@import url(../blocks/footer/__column-heading/footer__column-heading.css.css);
+@import url(../blocks/footer/__column-link/footer__column-link.css.css);
+@import url(../blocks/footer/__column-links/footer__column-links.css.css);
+@import url(../blocks/footer/__column/_content_info/footer__column_content_info.css);
+@import url(../blocks/footer/__column/_content_social/footer__column_content_social.css);
+@import url(../blocks/footer/__social-icon/footer__social-icon.css.css);
