@@ -9,4 +9,8 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+  background-color: #1f1f1f;
+  background-size: cover;
+  color: #fff;
 }
+/* перенесла стили с kaufman_theme_dark в общие стили*/

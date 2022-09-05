@@ -1,0 +1,9 @@
+.oakley {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-top: 160px;
+  padding-bottom: 0px;
+  background-color: rgb(242, 242, 242);
+}
+/* изменено название стиля, перемещено в один файл,  удалены папки description, description_theme-grey */

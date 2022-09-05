@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 60px 100px;
+  gap: 0 100px;
   justify-content: flex-start;
   max-width: 920px;
   padding: 0;

@@ -1,4 +1,11 @@
 .footer__column-link {
   text-decoration: none;
-  color: #f2f2f2;
+  color: #fff;
 }
+
+.footer__column-link:hover {
+  color: #9e65fb;
+  transition: color .5s;
+  opacity: .7;
+}
+/*стили для наведения ссылок в футере*/
