@@ -8,7 +8,8 @@
   }
 }
 
-.background-animation {
-  animation: rotation 20s infinite normal;
+.rotation {
+  animation: rotation 20s infinite linear;
 }
-/* Создаём независимый БЭМ-блок background-animation и стилизуем его,используем микс*/
+
+/* Создаём независимый БЭМ-блок rotation и стилизуем его,используем микс*/

@@ -1,8 +1,8 @@
-.video__frames {
+.video__iframes {
   width: 80%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   gap: 20px;
-  transform: translateY(60px);
+  transform: translateY(50px);
 }

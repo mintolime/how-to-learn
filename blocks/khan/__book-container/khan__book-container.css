@@ -1,5 +1,6 @@
 .khan__book-container {
   display: flex;
+  align-items: flex-start;
   flex-direction: row;
   gap: 48px;
   padding-top: 68px;

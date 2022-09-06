@@ -1,4 +1,5 @@
 .header__title {
+  box-sizing: border-box;
   max-width: 730px;
   z-index: 2;
   margin: 0;
