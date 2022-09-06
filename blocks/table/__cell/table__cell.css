@@ -1,7 +1,6 @@
 .table__cell {
   align-items: flex-start;
   width: 250px;
-  max-height: 300px;
   justify-content: space-between;
   padding-top: 60px;
 }
