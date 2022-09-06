@@ -5,6 +5,6 @@
   font-weight: normal;
   margin: 0;
   padding: 0;
-  margin-bottom: 16px
+  margin-bottom: 16px;
 }
 /*удалены файлы footer__column_content_info,footer__column_content_social. Свойство margin-bottom перемещено в общий стиль footer__column-links */
